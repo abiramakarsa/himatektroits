@@ -1,0 +1,288 @@
+.navbar{
+    height: 5rem;
+}
+.container-fluid {
+    justify-content: space-between;
+}
+.modal-dialog {
+    height: 100vh;
+    width: 430px;
+}
+
+@media (max-width: 780px){
+
+    .modal-dialog {
+        width: 330px !important;
+    }
+
+    .main-title {
+        font-size: 3rem !important;
+    }
+    
+}
+@media (max-width: 576px){
+
+    .main-title {
+        font-size: 2rem !important;
+    }
+    
+}
+
+
+.modal-content {
+    height: 100vh;
+}
+
+.modal-header{
+
+    width: 80%;
+    margin: 1rem auto;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.homepage {
+    background-image: url(/assets/homepage.jpg);
+    background-color: #0A2F5A;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 3rem;
+    overflow: hidden;
+}
+
+.main-title {
+    font-size: 4rem;
+    font-weight: bolder;
+    text-shadow: black 0px 0px 5rem;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    
+}
+
+.modal-line {
+    margin-bottom: 2rem;
+}
+
+.bg-blue {
+    background-image: linear-gradient(45deg,#0A2F5A , #0F5BB3);
+}
+
+.nav-link{
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    padding: 6px;
+    color: #FFFFFF;
+}
+
+em {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.page{
+
+    padding: 8rem;
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.page-title, .page-subtitle {
+    font-size: 5rem;
+    font-weight: bolder;
+    display: flex;
+    justify-self: center;
+}
+
+.page-subtitle{
+    padding-top: 3rem;
+}
+
+.page-para {
+    font-size: x-large;
+}
+
+.img-para {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 2rem;
+    border-radius: 100%;
+    width: 25rem;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid white;
+    border-radius: 1rem;
+    margin: 5rem 0 5rem 0;
+}
+
+.btn-laporan{
+    width: 100%;
+    height: 4rem;
+    border-radius: 1rem;
+    border: none;
+    margin: 0.5rem 0;
+    font-weight: 500;
+    font-size: large;
+}
+
+.link-laporan{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 5rem;
+}
+
+
+.btn-laporan:hover{
+    transform:translateY(-3px);
+    transition: 0.2s;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0A2F5A;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #0F5BB3;
+  }
+
+  .calendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 3rem 3rem 3rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+  }
+
+iframe{
+    border-radius: 0.5rem;
+}
+
+.agenda {
+    font-weight: 500;
+    font-size: larger;
+    padding-bottom: 1.5rem;
+}
+
+.subtitle{
+    font-size: x-large;
+    margin-top: 1rem;
+}
+
+.all-card{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-staff{
+    width: 25rem;
+    margin-bottom: 0.5rem;
+}
+
+.sekben{
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.staff-card{
+    font-size: large;
+    font-weight: bold;
+}
+
+.divisi{
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.carousel .carousel-item {
+    width: 25rem !important;
+
+  }
+
+.depart{
+    width: 25rem;
+    margin-bottom: 5rem;
+}
+
+.fungsio{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer{
+    height: 10rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title, .footer-subtitle {
+    margin: 0 0.25rem;
+    font-size: x-large;
+}
+
+.footer-title{
+    font-weight: bold;
+}
+
+.footer-subtitle{
+    font-style: italic;
+}
+
+.footer img {
+    height: 5rem;
+    margin: auto;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+}
+
+.social span img {
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
