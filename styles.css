@@ -1,3 +1,7 @@
+body{
+    text-align: justify;
+}
+
 .navbar{
     height: 5rem;
 }
@@ -11,21 +15,183 @@
 
 @media (max-width: 780px){
 
+    .logo{
+        width: 80% !important ;
+        margin-bottom: 1rem;
+    }
+
     .modal-dialog {
-        width: 330px !important;
+        width: 100% !important;
     }
 
     .main-title {
-        font-size: 3rem !important;
+        font-size: 1.5rem !important;
     }
+
+    .navbar-brand{
+        font-size:medium !important;
+    }
+
+    .navbar-brand em{
+        display: none;
+        position: absolute;
+        width: 0;
+        height: 0;
+    }
+
+    /* width */
+::-webkit-scrollbar {
+    display: none;
+  }
+ 
+  .footer-title, .footer-subtitle{
+    font-size: xx-small !important;
+    margin: 0px !important;
+  }
+
+  .footer img{  
+    height: 2rem !important;
+  }
+
+  .social span img{
+    height: 0.5rem !important;
+  }
+  .social span{
+    font-size: 0.5rem !important;
+  }
+
+  .footer{
+    margin-top: 1rem !important;
+  }
+
+  .page-title, .page-subtitle{
+    font-size: x-large !important;
+    margin: 0px;
+    padding: 0px ;
     
+  }
+
+  .page-para{
+    font-size: small !important;
+    width: 90%;
+  }
+
+  .line{
+    width: 90% !important;
+    padding: 0px;
+    margin: 2rem !important;
+  }
+
+  .row, .col{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link-laporan{
+    width: 90% !important;
+    height: 3.5rem !important;
+  }
+  .btn-laporan{
+    font-size: small !important;
+    height: 2.5rem !important;
+    border-radius: 0.5rem !important;
+  }
+
+  iframe{
+    width:100%;
+    margin: 0;
+  }
+
+  .agenda{
+    font-size: small !important;
+  }
+  .calendar{
+    padding: 10px !important;
+    border-radius: 10px !important;
+  }
+
+  .divisi{
+    font-size: medium !important;
+    text-align: center;
+    margin-top: 2rem !important;
+  }
+
+  em{
+    font-size:small !important ;
+  }
+
+  .foto-staff{
+    width: 90% !important;
+    margin: 0;
 }
-@media (max-width: 576px){
 
-    .main-title {
-        font-size: 2rem !important;
-    }
-    
+  .staff-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .sekben{
+    padding-top: 0px !important ;
+  }
+
+  .fungsio{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .depart{
+    width: 90% !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .carousel .carousel-item {
+    width: 100% !important;
+  }
+
+  .all-card{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wakahima{
+    display: flex;
+    height: auto;
+    flex-direction: column !important;
+    justify-content: space-between;
+
+}
+
+.wakahima div img{
+    width: 100% !important;
+
+}
+
+.modal-line{
+    font-size: large !important;
+}
+ .modal-body{
+    padding-left: 1rem !important;
+ }
+}
+
+
+.col{
+  display: flex;
+  flex-direction: column !important;
+}
+
+
+.staff-card{
+  display: flex;
+  flex-direction: column;
+}
+
+.sekben{
+  padding-top: 0px !important ;
 }
 
 
@@ -44,7 +210,7 @@ a {
 }
 
 .homepage {
-    background-image: url(./assets/homepage.jpg);
+    background-image: url(/assets/homepage.jpg);
     background-color: #1a1a1a;
     width: 100vw;
     height: 100vh;
@@ -91,8 +257,7 @@ em {
 }
 
 .page{
-
-    padding: 8rem;
+    padding-top: 8rem;
     margin: 0 auto;
     width: auto;
     display: flex;
@@ -128,7 +293,7 @@ em {
 }
 
 .line {
-    width: 100%;
+    width: 90%;
     border-bottom: 1px solid white;
     border-radius: 1rem;
     margin: 5rem 0 5rem 0;
@@ -199,7 +364,17 @@ iframe{
 
 .all-card{
     width: 100%;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wakahima{
+    width: 90%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .col{
@@ -212,11 +387,6 @@ iframe{
 .foto-staff{
     width: 25rem;
     margin-bottom: 0.5rem;
-}
-
-.sekben{
-    padding-top: 5rem;
-    margin-bottom: 5rem;
 }
 
 .staff-card{
@@ -234,8 +404,7 @@ iframe{
 }
 
 .carousel .carousel-item {
-    width: 25rem !important;
-
+    width: 25rem;
   }
 
 .depart{
